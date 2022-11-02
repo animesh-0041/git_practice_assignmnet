@@ -1,7 +1,7 @@
 function primeProblem(prime) {
   let count = 0;
-  for (let i = 1; i <= prime; i++) {
-    if (prime % i == 0) {
+  for (let j = 1; j <= prime; j++) {
+    if (prime % j == 0) {
       count++;
     }
   }
