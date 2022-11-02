@@ -1,8 +1,10 @@
-function primeNumber(num) {
-  let factor = 0;
-  for (let i = 1; i <= num; i++) {
-    if (num % i == 0) {
-      factor++;
+
+function primeProblem(prime) {
+  let count = 0;
+  for (let j = 1; j <= prime; j++) {
+    if (prime % j == 0) {
+      count++;
+
     }
   }
   if (factor == 2) {
@@ -12,7 +14,7 @@ function primeNumber(num) {
   }
 }
 
-let result = primeNumber(5);
+let result = primeProblem(5);
 if (result == true) {
   console.log("Prime");
 } else {
