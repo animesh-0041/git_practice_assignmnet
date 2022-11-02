@@ -1,11 +1,13 @@
+
 function primeProblem(prime) {
   let count = 0;
   for (let j = 1; j <= prime; j++) {
     if (prime % j == 0) {
       count++;
+
     }
   }
-  if (count == 2) {
+  if (factor == 2) {
     return true;
   } else {
     return false;
